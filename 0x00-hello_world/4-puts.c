@@ -2,11 +2,11 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-        puts("Programming is like building a multiligual puzzle/n");
-        return (0);
+	puts("Programming is like building a multiligual puzzle \n");
+	return (0);
 }
