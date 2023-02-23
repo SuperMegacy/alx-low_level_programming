@@ -9,10 +9,8 @@ int main(void)
 {
 	char lwcase;
 
-	for (lwcase = 'a'; lwcase >= 'z'; lwcase++)
-	{
-		putchar(lwcase);
-		putchar('\n');
-	}
+	for (lwcase = 'a'; lwcase <= 'z'; lwcase++)
+	putchar(lwcase);
+	putchar('\n');
 	return (0);
 }
