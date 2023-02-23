@@ -8,14 +8,10 @@
 int main(void)
 {
         char lwcase;
-        char q, e;
 
-	q = 'q';
-	e = 'e';
-	
-        for (lwcase = 'a'; lwcase <= 'z'; lwcase)
+        for (lwcase = 'a'; lwcase <= 'z'; lwcase++)
 	{
-		if (lwcase != q && lwcase != e)
+		if (lwcase != 'q' && lwcase != 'e')
 		{
         		putchar(lwcase);
 		}
