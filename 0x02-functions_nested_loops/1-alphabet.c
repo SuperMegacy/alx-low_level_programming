@@ -2,15 +2,13 @@
 
 /**
  * main - alphabet game lower case
- *
- * Return: always 0 (success)
+ * void - print alphabets from a to z
  */
-
-void print_alphabet(void) /* prints alphabets */
+void print_alphabet(void)
 {
-	int i;
+	char i;
 
-	for (i = 96; i <= 122; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
 	}
