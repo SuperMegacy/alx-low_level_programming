@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - alphabet game
+ * main - alphabet game lower case
  *
  * Return: always 0 (success)
  */
 
-int main(void)
+void print_alphabet(void) /* prints alphabets */
 {
 	int i;
 
@@ -14,7 +14,5 @@ int main(void)
 	{
 		_putchar(i);
 	}
-	
 	_putchar('\n');
-	return (0);
 }
