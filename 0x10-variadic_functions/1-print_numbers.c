@@ -1,5 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_numbers - prints out numbers followed by a new line.
@@ -23,7 +25,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 		if (separator != NULL && i != (n - 1))
 		{
-			printf("%s", separator)
+			printf("%s", separator);
 		}
 	}
 	printf("\n");
