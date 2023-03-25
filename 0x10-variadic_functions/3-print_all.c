@@ -10,7 +10,7 @@
  */
 void print_all(const char * const format, ...)
 {
-	unsigned int i = 0, j = 0, c = 0;
+	unsigned int i = 0, j, c = 0;
 	char *sap;
 	const char arg[] = "cifs";
 	va_list ap;
@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 	va_start(ap, format);
 	while (format && format[i])
 	{
-		j;
+		j = 0;
 		while (arg[j])
 		{
 			if (format[i] == arg[j] && c)
