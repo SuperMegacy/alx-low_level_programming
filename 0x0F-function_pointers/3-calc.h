@@ -1,4 +1,4 @@
-9:22 PM 4/5/2023#ifndef CALC_H
+#ifndef CALC_H
 #define CALC_H
 
 /**
